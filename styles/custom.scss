@@ -1,0 +1,14 @@
+
+$primary: #ff577f;
+$secondary: #ff884b;
+$second-comp: #ffc764;
+$compliment: #cdfffc;
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "second-comp": $second-comp,
+    "compliment": $compliment,
+
+);
+
+@import "~bootstrap/scss/bootstrap";
