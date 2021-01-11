@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test": "jest --watch"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
@@ -25,10 +26,12 @@
     "@storybook/addon-links": "^6.1.11",
     "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^6.1.11",
+    "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.3",
+    "babel-jest": "^26.6.3",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.0.1",
-    "jest-dom": "^4.0.0",
+    "jest": "^26.6.3",
     "sass-loader": "^10.1.0",
     "style-loader": "^2.0.0"
   }
